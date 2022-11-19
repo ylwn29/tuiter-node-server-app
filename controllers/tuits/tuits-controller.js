@@ -2,7 +2,7 @@ import posts from "./tuits.js";
 let tuits = posts;
 
 const currentUser = {
-    "userName": "NASA",
+    "username": "NASA",
     "handle": "@nasa",
     "image": "nasa.png",
 };
