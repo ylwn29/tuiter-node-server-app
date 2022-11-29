@@ -10,10 +10,7 @@ const schema = mongoose.Schema({
         type: String,
         default: "Just now"
     },
-    image: {
-        data: Buffer,
-        contentType: String
-    },
+    image: String,
     title: String,
     replies: Number,
     retuits: Number,
