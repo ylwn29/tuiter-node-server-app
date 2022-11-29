@@ -5,7 +5,7 @@ import * as tuitsDao from './tuits-dao.js';
 const currentUser = {
     "username": "NASA",
     "handle": "@nasa",
-    "image": "nasa.png",
+    "image": "NASA.png",
 };
 
 const templateTuit = {
@@ -18,6 +18,7 @@ const templateTuit = {
     "likes": 0,
     "dislikes": 0,
     "disliked": false,
+    "title": "NASA  is an independent agency of the US federal government responsible for the civil space program, aeronautics research, and space research.",
 }
 
 const createTuit = async (req, res) => {
