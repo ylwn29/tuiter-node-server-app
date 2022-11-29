@@ -11,7 +11,7 @@ const currentUser = {
 const templateTuit = {
     ...currentUser,
     "topic": "Space",
-    "time": "2h",
+    "time": "Just now",
     "liked": false,
     "replies": 0,
     "retuits": 0,
