@@ -1,6 +1,6 @@
 // import posts from "./tuits.js";
 // let tuits = posts;
-import * as tuitsDao from '../tuits/tuits-dao.js'
+import * as tuitsDao from './tuits-dao.js';
 
 const currentUser = {
     "username": "NASA",
